@@ -13,5 +13,18 @@ int main(){
     z = abs(-1*x);
     z = round(3.5);
     z = ceil(3.5);
+    z = floor(3.5);
+
+    double a;
+    double b;
+    double c;
+
+    std::cout << "Enter side A:";
+    std::cin >> a;
+
+    std::cout << "Enter side B:";
+    std::cin >> b;
+
+    std::cout << "Side C: " << sqrt(pow(a,2)+pow(b,2));
     
 }
